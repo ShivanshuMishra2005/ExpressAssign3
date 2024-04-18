@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Engineering Team",
+    "description": "Responsible for developing new products and maintaining existing systems.",
+    "members": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "location": "Office A"
+  },
+  {
+    "id": 2,
+    "name": "Marketing Team",
+    "description": "Handles all marketing campaigns and promotions for the company.",
+    "members": [
+      "David",
+      "Eve",
+      "Frank"
+    ],
+    "location": "Office B"
+  },
+  {
+    "id": 3,
+    "name": "Sales Team",
+    "description": "Responsible for selling products and services to clients.",
+    "members": [
+      "Grace",
+      "Harry",
+      "Ivy"
+    ],
+    "location": "Office C"
+  },
+  {
+    "id": 5,
+    "name": "Finance Management Team",
+    "description": "Manages financial transactions and budgets.",
+    "members": [
+      "Mia",
+      "Nathan",
+      "Olivia"
+    ],
+    "location": "Office D"
+  },
+  {
+    "id": 6,
+    "name": "Operations Team",
+    "description": "Handles day-to-day operations and logistics.",
+    "members": [
+      "Peter",
+      "Queenie",
+      "Ryan"
+    ],
+    "location": "Office E"
+  },
+  {
+    "id": 7,
+    "name": "New Group",
+    "description": "This is a new group",
+    "members": [
+      "Member 1",
+      "Member 2",
+      "Member 3"
+    ],
+    "location": "New Location"
+  }
+]

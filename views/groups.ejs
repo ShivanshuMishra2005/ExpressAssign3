@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Management System</title>
+</head>
+<body>
+    <h1>Group Management System</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Members</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% groups.forEach(group => { %>
+                <tr>
+                    <td><%= group.id %></td>
+                    <td><%= group.name %></td>
+                    <td><%= group.description %></td>
+                    <td><%= group.members.join(', ') %></td>
+                    <td><%= group.location %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
